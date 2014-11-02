@@ -4,7 +4,7 @@ import org.newdawn.slick.Image;
 import org.newdawn.slick.Input;
 import org.newdawn.slick.SlickException;
 
-public class Goal_Control extends Controller
+public class GoalControl extends Controller
 {
 	Image ImgCursor, ImgGoal;
 	private int cursor_x, cursor_y;

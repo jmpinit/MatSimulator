@@ -2,9 +2,9 @@ import java.util.Vector;
 
 import org.newdawn.slick.SlickException;
 
-public class Near_Control extends Controller
+public class NearControl extends Controller
 {
-	public Near_Control(Magnet[] m, Vector<Entity> e, int x, int y) throws SlickException
+	public NearControl(Magnet[] m, Vector<Entity> e, int x, int y) throws SlickException
 	{
 		super(m, e, x, y);
 	}

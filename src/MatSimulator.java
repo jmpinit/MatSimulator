@@ -4,7 +4,7 @@ import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.SlickException;
 
-public class Mat_Simulator extends BasicGame
+public class MatSimulator extends BasicGame
 {
 	World theWorld;
 	

@@ -4,12 +4,12 @@ import org.newdawn.slick.Image;
 import org.newdawn.slick.Input;
 import org.newdawn.slick.SlickException;
 
-public class Keyboard_Control extends Controller
+public class KeyboardControl extends Controller
 {
 	Image sprite;
 	int cursor_x, cursor_y;
 	
-	public Keyboard_Control(Magnet[] m, Vector<Entity> e, int x, int y) throws SlickException
+	public KeyboardControl(Magnet[] m, Vector<Entity> e, int x, int y) throws SlickException
 	{
 		super(m, e, x, y);
 		
